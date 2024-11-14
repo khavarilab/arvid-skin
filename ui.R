@@ -55,7 +55,7 @@ dash <-  dashboardPage(
             tags$h3('Additional Information'),
             tags$br(),
             tags$h4('Suggested Citation'),
-            tags$p('Porter*, Meyers*, Miao*, Reynolds*,  et. al. Disease-linked regulatory DNA variants and homeostatic transcription factors in epidermis.'),
+            tags$p('Porter, Meyers, Miao, Reynolds,  et. al. Disease-linked regulatory DNA variants and homeostatic transcription factors in epidermis.'),
             tags$br(),
             tags$br(),
             tags$h4('Data Download'),
