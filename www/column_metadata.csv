@@ -1,0 +1,20 @@
+Column,Details
+Fragment ID, ID of fragment in MPRA library
+Variant, Whether variant in fragment matches ref/alt sequence.
+Test SNP,RefSNP ID (rsID) of SNPs tested
+Chromosome,chromosome number in GRCh38
+Position,GRCh38 coordinate location of SNV (1-indexed)
+Reference,reference allele 
+Alternate,alternate allele 
+Fragment Start,GRCh38 coordinate for start of fragment cloned into MPRA library
+Fragment End,GRCh38 coordinate for end of fragment cloned into MPRA library 
+Index SNP,rsID of the SNP analyzed in the GWAS study which implicated the locus
+Skin Disease, GWAS linked disease
+Risk Allele, If ref/alt allele confers disease risk
+Overlapping Gene,Gene overlapping SNV
+Nearest Gene,Gene within 800kbp of SNV
+Distance to Nearest Gene,Distance from SNV to nearest gene
+Test SNP eGenes,Gene for which the SNV is an eQTL
+In HiChIP Loop, Genes with promoters looped by HiChIP to the SNV
+In Promoter, Genes with promoters overlapping the SNV
+Differentially Active, Whether FDR<0.01 for a ref/alt difference by MPRA
